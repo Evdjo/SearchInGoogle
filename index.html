@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>        
+<head>
     <meta charset="utf=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,39 +10,34 @@
 </head>
 <body>
     <header>
-        <nav class="navbar is-info">
-            <div class="navbar-brand">
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Menu
-                  </a>          
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item" href="https://github.com/evdjo" target="_blank">
-                      Other Projects
-                    </a>
-                    <a class="navbar-item" href= "https://www.linkedin.com/in/evelyn-joaquim/" target="_blank">
-                      Contact Me
-                    </a>
-                  </div>
-                </div>
-            </div>
-                </div>
-              </div>
-            </div>
-          </nav>   
-          <section class="hero is-light">
-            <div class="hero-body">
-              <p class="title has-text-centered">
-                Search in Google
-              </p>
-              <p class="subtitle has-text-centered">
-                What do you want to know today?
-              </p>
-            </div>
-          </section>
+      <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Menu
+          </a>      
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/evdjo" target="_blank">
+              Other Projects
+            </a>
+            <a class="navbar-item" href="https://www.linkedin.com/in/evelyn-joaquim/" target="_blank">
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-        <div class="hero is-light">
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title has has-text-centered">
+          Search in Google
+        </p>
+        <p class="subtitle has has-text-centered">
+          What do you want to know today?
+        </p>
+      </div>
+    </section>
+    <main >
+        <div class="hero">
             <form action="https://www.google.com/search">
                     <input class="input is-danger" type="text" placeholder="Type Here" id="q" name="q">
                     <br><br>
